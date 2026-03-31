@@ -1,0 +1,50 @@
+[
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\main_new.cpp.obj -c F:\\game1\\main_new.cpp",
+  "file": "F:/game1/main_new.cpp",
+  "output": "CMakeFiles/snake.dir/main_new.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Common.cpp.obj -c F:\\game1\\src\\Common.cpp",
+  "file": "F:/game1/src/Common.cpp",
+  "output": "CMakeFiles/snake.dir/src/Common.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Snake.cpp.obj -c F:\\game1\\src\\Snake.cpp",
+  "file": "F:/game1/src/Snake.cpp",
+  "output": "CMakeFiles/snake.dir/src/Snake.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Food.cpp.obj -c F:\\game1\\src\\Food.cpp",
+  "file": "F:/game1/src/Food.cpp",
+  "output": "CMakeFiles/snake.dir/src/Food.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Input.cpp.obj -c F:\\game1\\src\\Input.cpp",
+  "file": "F:/game1/src/Input.cpp",
+  "output": "CMakeFiles/snake.dir/src/Input.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\SaveSystem.cpp.obj -c F:\\game1\\src\\SaveSystem.cpp",
+  "file": "F:/game1/src/SaveSystem.cpp",
+  "output": "CMakeFiles/snake.dir/src/SaveSystem.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Renderer.cpp.obj -c F:\\game1\\src\\Renderer.cpp",
+  "file": "F:/game1/src/Renderer.cpp",
+  "output": "CMakeFiles/snake.dir/src/Renderer.cpp.obj"
+},
+{
+  "directory": "F:/game1/build",
+  "command": "F:\\Path\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\snake.dir\\src\\Game.cpp.obj -c F:\\game1\\src\\Game.cpp",
+  "file": "F:/game1/src/Game.cpp",
+  "output": "CMakeFiles/snake.dir/src/Game.cpp.obj"
+}
+]
