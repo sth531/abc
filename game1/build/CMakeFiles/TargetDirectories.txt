@@ -1,0 +1,3 @@
+F:/game1/build/CMakeFiles/snake.dir
+F:/game1/build/CMakeFiles/edit_cache.dir
+F:/game1/build/CMakeFiles/rebuild_cache.dir
