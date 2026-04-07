@@ -7,22 +7,25 @@
 #include "SaveSystem.h"
 #include "Renderer.h"
 #include <string>
-#include <random>
 #include <chrono>
 
 class Game {
 public:
-	Game(int width = 30, int height = 20);
+	Game(int width = 20, int height = 20);
 	~Game();
 	
 	// 运行游戏主循环
 	void run();
 	
 private:
-	static constexpr int DEFAULT_WIDTH = 30;
+	static constexpr int DEFAULT_WIDTH = 20;
 	static constexpr int DEFAULT_HEIGHT = 20;
 	static const std::string DEFAULT_SAVE_FILE;
-	static const std::chrono::milliseconds FRAME_TIME;
+	static const std::chrono::milliseconds RENDER_FRAME_TIME;
+	static const std::chrono::milliseconds BASE_MOVE_INTERVAL;
+	static const std::chrono::milliseconds MIN_MOVE_INTERVAL;
+	static constexpr int SCORE_PER_DIFFICULTY = 20;
+	static constexpr int MOVE_INTERVAL_DECREMENT = 10;
 	
 	int width;
 	int height;
@@ -40,9 +43,8 @@ private:
 	Direction next_direction;
 	int score;
 	bool should_exit;
-	std::mt19937 rng;
-	std::uniform_int_distribution<int> dist_x;
-	std::uniform_int_distribution<int> dist_y;
+	std::chrono::milliseconds accumulated_update_time;
+	std::chrono::milliseconds current_move_interval;
 	
 	// 游戏逻辑方法
 	void handle_input();
@@ -52,8 +54,10 @@ private:
 	void handle_ended_state(int key);
 	
 	void update_game_logic();
+	void update_speed();
 	void reset_game();
 	void render_frame();
+	int get_difficulty() const;
 	
 	std::string get_info_bar() const;
 	std::string get_status_title() const;

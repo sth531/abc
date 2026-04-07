@@ -7,14 +7,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(snake
-    main_new.cpp
-    src/Common.cpp
-    src/Snake.cpp
-    src/Food.cpp
-    src/Input.cpp
-    src/SaveSystem.cpp
-    src/Renderer.cpp
-    src/Game.cpp
+    main.cpp
+    core/GameLoop.cpp
+    core/StateMachine.cpp
+    systems/InputSystem.cpp
+    systems/RenderSystem.cpp
+    systems/TimeSystem.cpp
+    gameplay/Snake.cpp
+    gameplay/Food.cpp
+    persistence/SaveSystem.cpp
 )
 
 target_include_directories(snake PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

@@ -1,10 +1,14 @@
 #pragma once
 
 #include "Common.h"
+#include <vector>
 
 class Input {
 public:
 	Input();
+	
+	// 读取当前帧所有输入（按采样顺序）
+	std::vector<int> poll_keys();
 	
 	// 检查是否有按键输入
 	bool has_input() const;

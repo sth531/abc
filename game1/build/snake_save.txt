@@ -1,15 +1,11 @@
 SNAKE_SAVE_V1
-width 30
+width 20
 height 20
-score 5
-dir 3
-food 28 0
-length 8
-19 7
-18 7
-17 7
-16 7
-15 7
-14 7
-13 7
-12 7
+score 10
+dir 1
+food 1 6
+length 4
+15 5
+15 4
+15 3
+15 2

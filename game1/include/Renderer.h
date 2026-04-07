@@ -42,6 +42,8 @@ public:
 private:
 	int width;
 	int height;
+	int playfield_cols;
+	int sidebar_cols;
 	int frame_cols;
 	int frame_rows;
 	
@@ -52,5 +54,6 @@ private:
 	std::vector<CHAR_INFO> frame;
 	
 	// 在指定位置放置字符
-	void put(int x, int y, char ch, WORD attr);
+	void put(int x, int y, wchar_t ch, WORD attr);
+	void put_cell(int logical_x, int y, wchar_t ch, WORD attr);
 };

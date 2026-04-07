@@ -1,4 +1,4 @@
-CMakeFiles/snake.dir/src/Game.cpp.obj: F:\game1\src\Game.cpp \
+CMakeFiles/snake.dir/core/GameLoop.cpp.obj: F:\game1\core\GameLoop.cpp \
  F:/game1/include/Game.h F:/game1/include/Common.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/windows.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/_mingw.h \

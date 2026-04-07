@@ -8,14 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/game1/main_new.cpp" "CMakeFiles/snake.dir/main_new.cpp.obj" "gcc" "CMakeFiles/snake.dir/main_new.cpp.obj.d"
-  "F:/game1/src/Common.cpp" "CMakeFiles/snake.dir/src/Common.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Common.cpp.obj.d"
-  "F:/game1/src/Food.cpp" "CMakeFiles/snake.dir/src/Food.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Food.cpp.obj.d"
-  "F:/game1/src/Game.cpp" "CMakeFiles/snake.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Game.cpp.obj.d"
-  "F:/game1/src/Input.cpp" "CMakeFiles/snake.dir/src/Input.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Input.cpp.obj.d"
-  "F:/game1/src/Renderer.cpp" "CMakeFiles/snake.dir/src/Renderer.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Renderer.cpp.obj.d"
-  "F:/game1/src/SaveSystem.cpp" "CMakeFiles/snake.dir/src/SaveSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/SaveSystem.cpp.obj.d"
-  "F:/game1/src/Snake.cpp" "CMakeFiles/snake.dir/src/Snake.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/Snake.cpp.obj.d"
+  "F:/game1/core/GameLoop.cpp" "CMakeFiles/snake.dir/core/GameLoop.cpp.obj" "gcc" "CMakeFiles/snake.dir/core/GameLoop.cpp.obj.d"
+  "F:/game1/core/StateMachine.cpp" "CMakeFiles/snake.dir/core/StateMachine.cpp.obj" "gcc" "CMakeFiles/snake.dir/core/StateMachine.cpp.obj.d"
+  "F:/game1/gameplay/Food.cpp" "CMakeFiles/snake.dir/gameplay/Food.cpp.obj" "gcc" "CMakeFiles/snake.dir/gameplay/Food.cpp.obj.d"
+  "F:/game1/gameplay/Snake.cpp" "CMakeFiles/snake.dir/gameplay/Snake.cpp.obj" "gcc" "CMakeFiles/snake.dir/gameplay/Snake.cpp.obj.d"
+  "F:/game1/main.cpp" "CMakeFiles/snake.dir/main.cpp.obj" "gcc" "CMakeFiles/snake.dir/main.cpp.obj.d"
+  "F:/game1/persistence/SaveSystem.cpp" "CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj.d"
+  "F:/game1/systems/InputSystem.cpp" "CMakeFiles/snake.dir/systems/InputSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/InputSystem.cpp.obj.d"
+  "F:/game1/systems/RenderSystem.cpp" "CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj.d"
+  "F:/game1/systems/TimeSystem.cpp" "CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

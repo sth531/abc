@@ -1,5 +1,6 @@
-CMakeFiles/snake.dir/src/Game.cpp.obj: F:\game1\src\Game.cpp \
- F:/game1/include/Game.h F:/game1/include/Common.h \
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj: \
+ F:\game1\persistence\SaveSystem.cpp F:/game1/include/SaveSystem.h \
+ F:/game1/include/Common.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/windows.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -323,14 +324,8 @@ CMakeFiles/snake.dir/src/Game.cpp.obj: F:\game1\src\Game.cpp \
  F:/Path/mingw64/include/c++/14.2.0/cstddef \
  F:/Path/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
- F:/Path/mingw64/include/c++/14.2.0/tuple F:/game1/include/Food.h \
- F:/game1/include/Input.h F:/Path/mingw64/include/c++/14.2.0/vector \
- F:/Path/mingw64/include/c++/14.2.0/bits/stl_vector.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/functional_hash.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/vector.tcc \
- F:/game1/include/SaveSystem.h F:/Path/mingw64/include/c++/14.2.0/string \
+ F:/Path/mingw64/include/c++/14.2.0/tuple \
+ F:/Path/mingw64/include/c++/14.2.0/string \
  F:/Path/mingw64/include/c++/14.2.0/bits/stringfwd.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/char_traits.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/postypes.h \
@@ -353,28 +348,24 @@ CMakeFiles/snake.dir/src/Game.cpp.obj: F:\game1\src\Game.cpp \
  F:/Path/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/basic_string.h \
  F:/Path/mingw64/include/c++/14.2.0/string_view \
+ F:/Path/mingw64/include/c++/14.2.0/bits/functional_hash.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/string_view.tcc \
  F:/Path/mingw64/include/c++/14.2.0/ext/string_conversions.h \
  F:/Path/mingw64/include/c++/14.2.0/cstdio \
  F:/Path/mingw64/include/c++/14.2.0/cerrno \
  F:/Path/mingw64/include/c++/14.2.0/bits/charconv.h \
  F:/Path/mingw64/include/c++/14.2.0/bits/basic_string.tcc \
- F:/game1/include/Renderer.h F:/Path/mingw64/include/c++/14.2.0/chrono \
- F:/Path/mingw64/include/c++/14.2.0/bits/chrono.h \
- F:/Path/mingw64/include/c++/14.2.0/ratio \
- F:/Path/mingw64/include/c++/14.2.0/cstdint \
- F:/Path/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- F:/Path/mingw64/x86_64-w64-mingw32/include/stdint.h \
- F:/Path/mingw64/include/c++/14.2.0/limits \
- F:/Path/mingw64/include/c++/14.2.0/ctime \
- F:/Path/mingw64/x86_64-w64-mingw32/include/time.h \
- F:/Path/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
- F:/Path/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- F:/Path/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
- F:/Path/mingw64/include/c++/14.2.0/thread \
- F:/Path/mingw64/include/c++/14.2.0/bits/std_thread.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ F:/Path/mingw64/include/c++/14.2.0/fstream \
+ F:/Path/mingw64/include/c++/14.2.0/istream \
+ F:/Path/mingw64/include/c++/14.2.0/ios \
+ F:/Path/mingw64/include/c++/14.2.0/exception \
+ F:/Path/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+ F:/Path/mingw64/include/c++/14.2.0/typeinfo \
+ F:/Path/mingw64/include/c++/14.2.0/bits/nested_exception.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/ios_base.h \
+ F:/Path/mingw64/include/c++/14.2.0/ext/atomicity.h \
  F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
  F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/pthread.h \
@@ -383,6 +374,41 @@ CMakeFiles/snake.dir/src/Game.cpp.obj: F:\game1\src\Game.cpp \
  F:/Path/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/signal.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ F:/Path/mingw64/x86_64-w64-mingw32/include/time.h \
+ F:/Path/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ F:/Path/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ F:/Path/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
  F:/Path/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
- F:/Path/mingw64/include/c++/14.2.0/bits/this_thread_sleep.h
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/locale_classes.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/locale_classes.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/system_error \
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+ F:/Path/mingw64/include/c++/14.2.0/stdexcept \
+ F:/Path/mingw64/include/c++/14.2.0/streambuf \
+ F:/Path/mingw64/include/c++/14.2.0/bits/streambuf.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/bits/basic_ios.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/locale_facets.h \
+ F:/Path/mingw64/include/c++/14.2.0/cwctype \
+ F:/Path/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/ostream \
+ F:/Path/mingw64/include/c++/14.2.0/bits/ostream.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/bits/codecvt.h \
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ F:/Path/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/fstream.tcc \
+ F:/Path/mingw64/include/c++/14.2.0/algorithm \
+ F:/Path/mingw64/include/c++/14.2.0/bits/stl_algo.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/stl_heap.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ F:/Path/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ F:/Path/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ F:/Path/mingw64/include/c++/14.2.0/pstl/execution_defs.h
